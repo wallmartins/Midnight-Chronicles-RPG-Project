@@ -1,0 +1,120 @@
+.landing-container {
+  background: url(/img/banner-cast.jpg) !important;
+  padding-bottom: 20px !important;
+}
+
+.vertical-bar {
+  margin-left: 40px !important;
+  box-sizing: border-box;
+}
+
+.fullcast-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1050px) {
+  .fullcast-container {
+    grid-template-columns: 100px 3fr;
+    max-width: 800px;
+    padding: 100px 20px;
+    margin: 0 auto;
+  }
+
+  .sidebar {
+    padding-left: 0;
+  }
+
+  .sideblack, .sidepurple, .vertical-bar, .short-vertical-bar {
+    display: none !important;
+  }
+}
+
+@media (max-width: 880px) {
+  .fullcast-container {
+    grid-template-columns: 1fr;
+    padding: 100px 40px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .about-text h1, .fullcast-content h1, .player-content ul {
+    text-align: center;
+  }
+}
+
+.fullcast-content h1 {
+  padding-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #625C81;
+}
+
+.player-content {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.player-content ul {
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.player-content li {
+  font-size: 1.3rem;
+  color: #27214B;
+  display: inline-block;
+  padding: 0 10px 15px 0;
+}
+
+.player-content li img {
+  display: inline-block;
+  width: 200px;
+  box-shadow: 7px 7px 0.7rem rgba(39, 33, 75, .6);
+}
+
+.player-content li p {
+  position: absolute;
+  display: none;
+}
+
+.player-content li:hover p {
+  cursor: pointer;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: rgba(0, 0, 0, .7);
+  font-family: 'Montserrat', sans-serif;
+  color: #EDE9E9;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.player-content li:hover .nick-four-letters {
+  font-size: 2rem;
+}
+
+.player-content li:hover .nick-five-letters {
+  font-size: 1.7rem;
+}
+
+.player-content li:hover .nick-six-letters {
+  font-size: 1.4rem;
+}
+
+.player-content li:hover .nick-seven-letters {
+  font-size: 1.2rem;
+}
+
+.player-content li:hover .nick-eight-letters {
+  font-size: 1.1rem;
+}
+
+.player-content li:hover .nick-nine-letters {
+  font-size: 0.9rem;
+}

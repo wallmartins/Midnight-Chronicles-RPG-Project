@@ -1,0 +1,141 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.modal {
+  background: rgba(98, 92, 129) !important;
+  border: 10px solid rgba(98, 92, 129, .6) !important;
+  box-shadow: 0 0 0 10px #EDE9E9 !important;
+}
+
+.header-datasheet {
+  background: #27214b;
+  width: 100%;
+  height: 170px !important;
+  padding: 20px 0 !important;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+  "img info-char info-char-rpg";
+}
+
+.header-datasheet img {
+  grid-area: img;
+  border-radius: 50%;
+  display: inline-block;
+  width: 130px;
+  justify-self: center;
+}
+
+.info-char {
+  grid-area: info-char;
+  align-self: center;
+}
+
+.info-char h2 {
+  padding: 0 !important;
+}
+
+.info-char h2 a{
+  display: block !important;
+  text-align: center;
+  font-weight: bold !important;
+  color: #625C81 !important;
+}
+
+.info-char span {
+  display: block;
+  text-align: center;
+  font-style: italic !important;
+  color: #625C81 !important;
+  padding-bottom: 15px;
+}
+
+.info-char p {
+  display: block;
+  box-sizing: border-box;
+  color: #EDE9E9;
+  font-size: 0.8rem !important;
+  padding: 0 30px 0 0;
+  text-align: justify;
+}
+
+.characters-player {
+  height: 350px !important;
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow-y: scroll;
+}
+
+.characters-player h1 {
+  width: 100%;
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: #EDE9E9;
+  grid-area: title;
+  padding: 30px 30px;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 340px;
+  height: 150px;
+  padding: 0 20px;
+  margin: 0 10px 10px 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: rgba(237, 233, 233, 0.8);
+  box-shadow: 3px 3px 0.5rem rgba(39, 33, 75, .6);
+  display: inline-block;
+  grid-area: card;
+}
+
+.characters-player::-webkit-scrollbar {
+  width: 10px;
+}
+
+.characters-player::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.characters-player::-webkit-scrollbar-thumb {
+  background: #27214B;
+  border-radius: 10px;
+}
+
+.characters-player div img {
+  border-radius: 50%;
+  display: inline-block;
+  width: 80px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.characters-player ul {
+  display: inline-block;
+}
+
+.characters-player ul li a h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  display: inline;
+}
+
+.characters-player ul li p {
+  font-size: .8rem;
+}
+
+.footer-datasheet {
+  display: block;
+  height: 50px;
+  margin-top: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  background: #27214b;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #EDE9E9;
+}
