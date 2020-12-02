@@ -27,7 +27,7 @@
   justify-self: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .header-datasheet {
     grid-template-columns: 1fr;
     grid-template-areas: 
