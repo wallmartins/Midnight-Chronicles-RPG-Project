@@ -18,6 +18,10 @@
 }
 
 @media (max-width: 1050px) {
+  .landing-container {
+    background-image: url(/img/banner-cast-mobile-medium.jpg) !important;
+  }
+
   .fullcast-container {
     grid-template-columns: 100px 3fr;
     max-width: 800px;
@@ -46,6 +50,12 @@
 
   .about-text h1, .fullcast-content h1, .player-content ul {
     text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .landing-container {
+    background-image: url(/img/banner-cast-mobile-small.jpg) !important;
   }
 }
 
