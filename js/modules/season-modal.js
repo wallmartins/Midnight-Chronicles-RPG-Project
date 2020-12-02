@@ -10,46 +10,9 @@ export default function initSeasonModal() {
     
     function toggleModal(event) {
       event.preventDefault();
-
-      if(event.target === arraySeason[0]){
-        arrayContainer[0].classList.toggle('active');
-      } else if(event.target === arraySeason[1]) {
-        arrayContainer[1].classList.toggle('active');
-      } else if(event.target === arraySeason[2]) {
-        arrayContainer[2].classList.toggle('active');
-      } else if(event.target === arraySeason[3]) {
-        arrayContainer[3].classList.toggle('active');
-      } else if(event.target === arraySeason[4]) {
-        arrayContainer[4].classList.toggle('active');
-      } else if(event.target === arraySeason[5]) {
-        arrayContainer[5].classList.toggle('active');
-      } else if(event.target === arraySeason[6]) {
-        arrayContainer[6].classList.toggle('active');
-      } else if(event.target === arraySeason[7]) {
-        arrayContainer[7].classList.toggle('active');
-      } else if(event.target === arraySeason[8]) {
-        arrayContainer[8].classList.toggle('active');
-      } else if(event.target === arraySeason[9]) {
-        arrayContainer[9].classList.toggle('active');
-      } else if(event.target === arraySeason[10]) {
-        arrayContainer[10].classList.toggle('active');
-      } else if(event.target === arraySeason[11]) {
-        arrayContainer[11].classList.toggle('active');
-      } else if(event.target === arraySeason[12]) {
-        arrayContainer[12].classList.toggle('active');
-      } else if(event.target === arraySeason[13]) {
-        arrayContainer[13].classList.toggle('active');
-      } else if(event.target === arraySeason[14]) {
-        arrayContainer[14].classList.toggle('active');
-      } else if(event.target === arraySeason[15]) {
-        arrayContainer[15].classList.toggle('active');
-      } else if(event.target === arraySeason[16]) {
-        arrayContainer[16].classList.toggle('active');
-      } else if(event.target === arraySeason[17]) {
-        arrayContainer[17].classList.toggle('active');
-      } else if(event.target === arraySeason[18]) {
-        arrayContainer[18].classList.toggle('active');
-      } 
+      
+      const modalID = arrayContainer.find(el => el.id === event.target.id);
+      modalID.classList.toggle('active');
     }
     
     function outClick(event) {
