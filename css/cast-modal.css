@@ -174,3 +174,9 @@
   font-size: 0.8rem;
   color: #EDE9E9;
 }
+
+@media (max-width: 360px) {
+  .close {
+    right: 15px !important;
+  }
+}
