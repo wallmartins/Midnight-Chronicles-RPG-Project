@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-areas:
-  "img info-char info-char-rpg";
+  "img info-char";
 }
 
 .header-datasheet img {
@@ -25,6 +25,23 @@
   display: inline-block;
   width: 130px;
   justify-self: center;
+}
+
+@media (max-width: 500px) {
+  .header-datasheet {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "info-char";
+  }
+
+  .header-datasheet img {
+    display: none;
+  }
+
+  .info-char p {
+    padding-left: 30px !important;
+  }
+
 }
 
 .info-char {
@@ -88,6 +105,24 @@
   box-shadow: 3px 3px 0.5rem rgba(39, 33, 75, .6);
   display: inline-block;
   grid-area: card;
+}
+
+@media (max-width: 793px) {
+  .card {
+    margin: 0 0 5px 5px;
+  }
+}
+
+@media (max-width: 724px) {
+  .characters-player > div {
+    text-align: center;
+  }
+}
+
+@media (max-width: 442px) {
+  .characters-player h1 {
+    font-size: 1.3rem;
+  }
 }
 
 .characters-player::-webkit-scrollbar {
