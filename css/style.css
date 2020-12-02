@@ -190,7 +190,7 @@ body {
   height: 100vh;
   background-image: url("/img/banner-home.jpg");
   background-attachment: fixed;
-  background-repeat: round;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 

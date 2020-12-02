@@ -2,7 +2,7 @@
   background-image: url(/img/banner-cast.jpg) !important;
   padding-bottom: 20px !important;
   background-attachment: fixed;
-  background-repeat: round;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
