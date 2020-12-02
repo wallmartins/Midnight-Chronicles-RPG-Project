@@ -1,9 +1,9 @@
 .landing-container {
   background-image: url(/img/banner-cast.jpg) !important;
   padding-bottom: 20px !important;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .vertical-bar {
