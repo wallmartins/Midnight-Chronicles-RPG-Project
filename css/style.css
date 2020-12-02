@@ -31,7 +31,7 @@ body {
   background: url(/img/bg-openning.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   display: grid;
   align-content: center;
   justify-content: center;
