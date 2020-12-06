@@ -70,7 +70,23 @@ body {
   padding: 50px 0 0 0;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1300px) {
+  .openning-container {
+    background: url(/img/bg-openning-mobile-medium.jpg);
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+}
+
+@media (max-width: 910px) {
+  .openning-container {
+    background: url(/img/bg-openning-mobile-small.jpg);
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+
   .openning-container h1 {
     font-size: 3rem;
   }
