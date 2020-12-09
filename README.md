@@ -1,4 +1,4 @@
-#Midnight Chronicles RPG Website
+# Midnight Chronicles RPG Website
 
 Um site destinado a informações de um RPG ao qual eu fazia parte e utilizei das informações existentes nele para poder treinar as minhas habilidades com front-end.
 
